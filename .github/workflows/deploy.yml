@@ -1,0 +1,24 @@
+name: Deploy the updated documents
+on:
+  push:
+    branches:
+      - master
+jobs:
+
+  build:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: executing remote ssh command to update docs
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.KEY }}
+          port: ${{ secrets.PORT }}
+          script: ${{ secrets.COMMAND }}
+      - name: Purge cache
+        uses: jakejarvis/cloudflare-purge-action@master
+        env:
+          CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
+          CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
