@@ -1,0 +1,15 @@
+- ## Prologue
+    - [Release Notes](/docs/{{version}}/releases)
+    - [Upgrade Guide](/docs/{{version}}/upgrade)
+    - [Contribution Guide](/docs/{{version}}/contributions)
+- ## Getting Started
+    - [Installation](/docs/{{version}}/installation)
+    - [Configuration](/docs/{{version}}/configuration)
+    - [Directory Structure](/docs/{{version}}/structure)
+    - [Frontend](/docs/{{version}}/frontend)
+    - [Starter Kits](/docs/{{version}}/starter-kits)
+    - [Deployment](/docs/{{version}}/deployment)
+- ## Extensies 
+    - [Restrict Product Delete](/docs/{{version}}/restrict-product-delete)
+- ## Magento 2
+    - [Varnish Esi Cache](/docs/{{version}}/magento-2/varnish-esi-cache)
