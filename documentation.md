@@ -10,6 +10,6 @@
     - [Starter Kits](/docs/{{version}}/starter-kits)
     - [Deployment](/docs/{{version}}/deployment)
 - ## Extensies 
-    - [Restrict Product Delete](/docs/{{version}}/restrict-product-delete)
+    - [Restrict Product Delete](/docs/{{version}}/extensions/restrict-product-delete)
 - ## Magento 2
     - [Varnish Esi Cache](/docs/{{version}}/magento-2/varnish-esi-cache)
