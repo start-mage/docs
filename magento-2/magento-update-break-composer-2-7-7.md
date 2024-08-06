@@ -1,4 +1,4 @@
-#Composer version 2.7.7 breaks Magento 2.4.7-p1 update
+# Composer version 2.7.7 breaks Magento 2.4.7-p1 update
 
 ```bash
 composer require-commerce magento/product-community-edition 2.4.7-p1 --no-update
